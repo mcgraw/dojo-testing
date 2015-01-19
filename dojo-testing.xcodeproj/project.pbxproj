@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F04AA29E1A6DAB8800CC8D70 /* LaunchScreen_rank_3.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04AA29D1A6DAB8800CC8D70 /* LaunchScreen_rank_3.xib */; };
 		F04FAA7F1A6D8678005C46C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FAA7E1A6D8678005C46C9 /* AppDelegate.swift */; };
 		F04FAA811A6D8678005C46C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FAA801A6D8678005C46C9 /* ViewController.swift */; };
 		F04FAA841A6D8678005C46C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04FAA821A6D8678005C46C9 /* Main.storyboard */; };
 		F04FAA861A6D8678005C46C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04FAA851A6D8678005C46C9 /* Images.xcassets */; };
-		F04FAA891A6D8678005C46C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04FAA871A6D8678005C46C9 /* LaunchScreen.xib */; };
 		F04FAAA81A6D944C005C46C9 /* dojo_testingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FAAA71A6D944C005C46C9 /* dojo_testingTests.swift */; };
 		F04FAAAE1A6D962B005C46C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FAA801A6D8678005C46C9 /* ViewController.swift */; };
 		F04FAAB01A6D9A64005C46C9 /* XMCPortfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FAAAF1A6D9A64005C46C9 /* XMCPortfolio.swift */; };
@@ -32,13 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F04AA29D1A6DAB8800CC8D70 /* LaunchScreen_rank_3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen_rank_3.xib; sourceTree = "<group>"; };
 		F04FAA791A6D8678005C46C9 /* dojo-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dojo-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04FAA7D1A6D8678005C46C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F04FAA7E1A6D8678005C46C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F04FAA801A6D8678005C46C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F04FAA831A6D8678005C46C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F04FAA851A6D8678005C46C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F04FAA881A6D8678005C46C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F04FAAA31A6D944C005C46C9 /* dojo-testingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dojo-testingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04FAAA61A6D944C005C46C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F04FAAA71A6D944C005C46C9 /* dojo_testingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dojo_testingTests.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 				F04FAAB11A6D9A70005C46C9 /* XMCStock.swift */,
 				F04FAA821A6D8678005C46C9 /* Main.storyboard */,
 				F04FAA851A6D8678005C46C9 /* Images.xcassets */,
-				F04FAA871A6D8678005C46C9 /* LaunchScreen.xib */,
+				F04AA29D1A6DAB8800CC8D70 /* LaunchScreen_rank_3.xib */,
 				F04FAA7C1A6D8678005C46C9 /* Supporting Files */,
 			);
 			path = "dojo-testing";
@@ -204,8 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04AA29E1A6DAB8800CC8D70 /* LaunchScreen_rank_3.xib in Resources */,
 				F04FAA841A6D8678005C46C9 /* Main.storyboard in Resources */,
-				F04FAA891A6D8678005C46C9 /* LaunchScreen.xib in Resources */,
 				F04FAA861A6D8678005C46C9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,14 +260,6 @@
 				F04FAA831A6D8678005C46C9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F04FAA871A6D8678005C46C9 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F04FAA881A6D8678005C46C9 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -423,6 +415,7 @@
 				F04FAA9A1A6D8678005C46C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F04FAAAB1A6D944D005C46C9 /* Build configuration list for PBXNativeTarget "dojo-testingTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +424,7 @@
 				F04FAAAD1A6D944D005C46C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
