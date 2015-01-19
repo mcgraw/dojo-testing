@@ -24,7 +24,7 @@ class XMCStock: NSObject {
     }
     
     func addShares(shares: Double, price: Double) {
-        self.totalCost += shares / price
+        self.totalCost += shares * price
         
         self.shares += shares
         self.price = self.totalCost / self.shares
