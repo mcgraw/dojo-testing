@@ -27,6 +27,6 @@ class XMCStock: NSObject {
         self.totalCost += shares * price
         
         self.shares += shares
-        self.price = self.totalCost / self.shares
+        self.price = self.totalCost * self.shares
     }
 }
