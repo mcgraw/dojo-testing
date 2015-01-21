@@ -1,3 +1,2 @@
 language: objective-c
-xcode_project: dojo-testing.xcodeproj
-xcode_scheme: dojo-testing
+script: xcodebuild -workspace dojo-testing.xcworkspace -scheme dojo-testing -sdk iphonesimulator
