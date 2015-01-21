@@ -1,2 +1,4 @@
 language: objective-c
-script: xcodebuild -workspace dojo-testing.xcworkspace -scheme dojo-testing -sdk iphonesimulator
+script:
+  - xctool -workspace dojo-testing.xcworkspace -scheme dojo-testing -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -workspace dojo-testing.xcworkspace -scheme dojo-testingTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
