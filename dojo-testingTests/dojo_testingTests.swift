@@ -22,8 +22,8 @@ class dojo_testingTests: XCTestCase {
     }
     
     func testViewControllerLoad() {
-        let view = ViewController()
+        let vc = ViewController()
         
-        XCTAssertNotNil(view, "View did not load for ViewController")
+        XCTAssertNotNil(vc.view, "View did not load for ViewController")
     }
 }
